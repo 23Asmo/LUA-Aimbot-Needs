@@ -1,3 +1,36 @@
 --[[ Linear, Sine, Back, Quad, Quar, Quint, Bounce, Elastic, Exponential, Circular, Cubic]]--
 # Personally Recommend Linear, Exponential and Circular.
 # Documentary in other file.
+
+Name	Value	Summary
+Linear	0	
+Moves at a constant speed.
+Sine	1	
+Speed is determined by a sine wave.
+
+Back	2	
+Slightly overshoots the target, then backs into place.
+
+Quad	3	
+Speed is determined by quadratic interpolation.
+
+Quart	4	
+Similar to Quad, but starts at a higher speed determined by quartic interpolation.
+
+Quint	5	
+Similar to Quart, but starts at a higher speed determined by quintic interpolation.
+
+Bounce	6	
+Bounces backwards multiple times after reaching the target, before eventually settling.
+
+Elastic	7	
+Moves as if attached to a rubber band, overshooting the target several times.
+
+Exponential	8	
+Speed reduces very quickly as tween approaches the target.
+
+Circular	9	
+Follows a circular arc, slowing down as tween approaches the target.
+
+Cubic	10	
+Similar to Quad, but starts at a lower speed.
